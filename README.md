@@ -29,12 +29,12 @@
 
 ### 2️⃣ 安装脚本
 
-👉 **[点此一键安装脚本](https://raw.githubusercontent.com/zjt666666zjt/Chatpt_importer/main/ChatGPT-%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95%E5%AF%BC%E5%87%BA%E5%99%A8.user.js)**  
+👉 **[点此一键安装脚本](https://raw.githubusercontent.com/zjt666666zjt/Chatpt_importer/main/chatgpt-exporter.user.js)**  
 
 或手动安装：
 
 1. 打开此仓库中的  
-   [`ChatGPT-历史记录导出器.user.js`](https://github.com/zjt666666zjt/Chatpt_importer/blob/main/ChatGPT-%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95%E5%AF%BC%E5%87%BA%E5%99%A8.user.js)  
+   [`chatgpt-exporter.user.js`](https://github.com/zjt666666zjt/Chatpt_importer/blob/main/chatgpt-exporter.user.js)  
 2. 点击「Raw」或「原始文件」按钮  
 3. 浏览器会自动触发 Tampermonkey 安装提示 → 点击「安装」即可  
 
@@ -101,5 +101,6 @@ ChatGPT_backup_2025-11-05.zip
 本项目遵循 **MIT License** ，可自由使用、修改、分发。  
 > Copyright © 2025  
 > 原始脚本作者：Alex Mercer, Hanashiro, WenDavid  
+> 增强版维护：LeYangZi (Claude & Codex Assist)
 
 ---
