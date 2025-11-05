@@ -1,6 +1,6 @@
 # 🗂️ ChatGPT历史记录导出器 (ChatGPT Universal Exporter Enhanced)
 
-> 一键导出 ChatGPT 所有聊天记录（支持 JSON / Markdown / HTML 格式），并自动打包为 ZIP 文件保存本地。
+> 一键导出 ChatGPT 全部聊天记录（支持 JSON / Markdown / HTML 格式），并自动打包为 ZIP 文件保存到本地。
 
 ---
 
@@ -10,7 +10,7 @@
 - ✅ 支持多种格式（JSON、Markdown、HTML）  
 - ✅ 自动生成美观的 HTML 页面（含代码高亮）  
 - ✅ 支持团队空间 (ChatGPT Team / Enterprise)  
-- ✅ 导出过程带有重试机制，防止中断  
+- ✅ 导出过程带有重试与断点机制，防止导出失败  
 - ✅ 一键打包成 ZIP 文件下载  
 
 ---
@@ -29,12 +29,12 @@
 
 ### 2️⃣ 安装脚本
 
-👉 **[点此一键安装脚本](https://raw.githubusercontent.com/zjt666666zjt/Chatpt_Exporter/main/chatgpt-exporter.user.js)**  
+👉 **[点此一键安装脚本](https://raw.githubusercontent.com/zjt666666zjt/ChatGPT_Exporter/main/chatgpt-exporter.user.js)**  
 
 或手动安装：
 
 1. 打开此仓库中的  
-   [`chatgpt-exporter.user.js`](https://github.com/zjt666666zjt/Chatpt_Exporter/blob/main/chatgpt-exporter.user.js)  
+   [`chatgpt-exporter.user.js`](https://github.com/zjt666666zjt/ChatGPT_Exporter/blob/main/chatgpt-exporter.user.js)  
 2. 点击「Raw」或「原始文件」按钮  
 3. 浏览器会自动触发 Tampermonkey 安装提示 → 点击「安装」即可  
 
@@ -47,8 +47,8 @@
 3. 点击按钮，选择导出格式（JSON / Markdown / HTML）  
 4. 选择导出空间：  
    - 个人空间 → 适用于普通账号  
-   - 团队空间 → 适用于 ChatGPT Team / Enterprise 账号  
-5. 点击「开始导出」即可，脚本会自动打包下载 ZIP 文件。  
+   - 团队空间 → 适用于 ChatGPT Team / Enterprise  
+5. 点击「开始导出」，等待脚本自动生成 ZIP 文件并下载。  
 
 ---
 
@@ -81,18 +81,19 @@ ChatGPT_backup_2025-11-05.zip
 
 ## 🖼️ 导出效果预览
 
-左侧为 Markdown，右侧为导出的 HTML 效果：
+下图展示了导出后的 Markdown（左）与 HTML（右）效果：
 
-![导出效果预览](https://github.com/zjt666666zjt/Chatpt_Exporter/raw/main/preview.png)
+![导出效果预览](https://github.com/zjt666666zjt/ChatGPT_Exporter/raw/main/preview.png)
 
 ---
 
 ## ⚠️ 注意事项
 
 - 请确保已登录 ChatGPT，否则脚本无法获取会话数据  
-- 导出前可先打开任意一个聊天页面确保 Access Token 可用  
-- 若导出失败，可刷新页面重试  
-- 所有数据均导出到你的本地，不会上传到任何服务器  
+- 导出前建议先打开任意一个聊天页面，确保 Access Token 有效  
+- 若导出失败，可刷新页面后重试  
+- 所有数据均保存于本地，不会上传到任何服务器  
+- 若你的账户是团队版，请确认 Workspace ID 权限正常  
 
 ---
 
@@ -101,12 +102,11 @@ ChatGPT_backup_2025-11-05.zip
 本项目遵循 **MIT License** ，可自由使用、修改、分发。  
 > Copyright © 2025  
 > 原始脚本作者：Alex Mercer, Hanashiro, WenDavid  
-
 ---
 
-## 💡 建议
+## 💡 建议与支持
 
-如果本项目对你有帮助，欢迎：
+如果此项目对你有帮助，欢迎：
 - 🌟 Star 支持  
 - 🐛 提交 Issue 反馈问题  
-- 🔄 Fork 项目制作你的定制版本
+- 🔄 Fork 本项目制作你的自定义版本
